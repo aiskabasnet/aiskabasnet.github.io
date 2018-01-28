@@ -256,7 +256,7 @@ img{
     height: 100vh;
     min-height: 500px;
     max-height: 1080px;
-    background: url(../images/IMG_20171216_193437_156.jpg);
+    background: url(../images/head.jpg);
     background-size: cover;
     padding: 15px;
     overflow: hidden
@@ -786,7 +786,7 @@ img{
     #about p {
         line-height: 30px;
         text-align: justify;
-        
+
     }
 }
 
