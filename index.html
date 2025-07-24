@@ -1,835 +1,614 @@
-<!doctype html>
-<html class="no-js" lang="en">
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--style.css-->
+    <link rel="stylesheet" href="assets/css/style.css" />
 
-    <head>
-        <!-- meta data -->
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Aiska Basnet - Frontend Developer</title>
+    <meta
+      name="description"
+      content="Frontend Developer specializing in React, TypeScript, and modern web technologies. View my portfolio and projects."
+    />
+    <meta name="author" content="John Doe" />
+    <meta
+      name="keywords"
+      content="frontend developer, react, typescript, web development, portfolio"
+    />
 
-        <!--font-family-->
-		<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&amp;subset=devanagari,latin-ext" rel="stylesheet">
-        
-        <!-- title of site -->
-        <title>Aiska</title>
+    <meta property="og:title" content="Aiska Basnet - Frontend Developer" />
+    <meta
+      property="og:description"
+      content="Frontend Developer specializing in React, TypeScript, and modern web technologies."
+    />
+    <meta property="og:type" content="website" />
 
-        <!-- For favicon png -->
-		<!-- <link rel="shortcut icon" type="image/icon" href="assets/logo/favicon.png"/> -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="Aiska Basnet - Frontend Developer Portfolio"
+    />
+    <meta
+      name="twitter:description"
+      content="Frontend Developer specializing in React, TypeScript, and modern web technologies."
+    />
+  </head>
+  <body>
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="container">
+        <div class="avatar">
+          <div class="avatar-inner">AB</div>
+        </div>
+
+        <h2>Hello, I'm</h2>
+        <h1>Aiska Basnet</h1>
+        <h2 class="hero-title">Frontend Developer</h2>
+        <p class="hero-subtitle">
+          Senior React/Next.js Developer | 5+ Years of Building Scalable,
+          High-Performance Web Apps
+        </p>
+
+        <div class="hero-buttons">
+          <a href="#contact" class="btn btn-primary">
+            <span class="icon-mail"></span>
+            Get In Touch
+          </a>
+          <a href="#projects" class="btn btn-outline">
+            <span class="icon-github"></span>
+            View Projects
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section section-white">
+      <div class="container">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-grid">
+          <div>
+            <p class="about-text">
+              Hey, I’m Aiska — a frontend developer with 5+ years of experience
+              working mostly with React, Next.js, and TypeScript. I’ve built web
+              apps for companies across the world, mostly in fully remote teams.
+            </p>
+            <p class="about-text">
+              I care about writing clean code, building smooth user experiences,
+              and keeping things fast and simple. I’ve led projects, worked with
+              cross-functional teams, and enjoy figuring out how to make complex
+              things easy to use.
+            </p>
+            <p class="about-text">
+              I’m currently finishing my Master’s in Computer Science and always
+              curious to learn and grow. If you’re building something cool —
+              let’s connect!
+            </p>
+
+            <div class="social-links">
+              <a
+                href="https://github.com/aiskabasnet"
+                class="btn btn-outline btn-sm"
+              >
+                <span class="icon-github"></span>
+                GitHub
+              </a>
+              <a
+                href="https://linkedin.com/in/aiskabasnet"
+                class="btn btn-outline btn-sm"
+              >
+                <span class="icon-linkedin"></span>
+                LinkedIn
+              </a>
+            </div>
+          </div>
+
+          <div>
+            <h3
+              style="
+                font-size: 1.5rem;
+                font-weight: 600;
+                margin-bottom: 24px;
+                color: #1f2937;
+              "
+            >
+              Skills & Technologies
+            </h3>
+            <div class="skills-grid">
+              <div class="skill-item">
+                <span class="icon-code"></span>
+                <span>React</span>
+              </div>
+              <div class="skill-item">
+                <span class="icon-code"></span>
+                <span>TypeScript</span>
+              </div>
+              <div class="skill-item">
+                <span class="icon-code"></span>
+                <span>Next.js</span>
+              </div>
+              <div class="skill-item">
+                <span class="icon-palette"></span>
+                <span>Tailwind CSS</span>
+              </div>
+              <div class="skill-item">
+                <span class="icon-database"></span>
+                <span>Node.js</span>
+              </div>
+
+              <div class="skill-item">
+                <span class="icon-code"></span>
+                <span>JavaScript</span>
+              </div>
+              <div class="skill-item">
+                <span class="icon-globe"></span>
+                <span>HTML5</span>
+              </div>
+              <div class="skill-item">
+                <span class="icon-palette"></span>
+                <span>CSS3</span>
+              </div>
+              <div class="skill-item">
+                <span class="icon-palette"></span>
+                <span>Sass/SCSS</span>
+              </div>
+              <div class="skill-item">
+                <span class="icon-code"></span>
+                <span>Web3</span>
+              </div>
+              <div class="skill-item">
+                <span class="icon-server"></span>
+                <span>GraphQL</span>
+              </div>
+              <!-- <div class="skill-item">
+                <span class="icon-server"></span>
+                <span>Express.js</span>
+              </div> -->
+              <!-- <div class="skill-item">
+                <span class="icon-database"></span>
+                <span>MongoDB</span>
+              </div>
+              <div class="skill-item">
+                <span class="icon-database"></span>
+                <span>PostgreSQL</span>
+              </div> -->
+              <div class="skill-item">
+                <span class="icon-layers"></span>
+                <span>GraphQL</span>
+              </div>
+              <div class="skill-item">
+                <span class="icon-server"></span>
+                <span>REST APIs</span>
+              </div>
+              <div class="skill-item">
+                <span class="icon-git"></span>
+                <span>Git</span>
+              </div>
+              <div class="skill-item">
+                <span class="icon-smartphone"></span>
+                <span>Responsive Design</span>
+              </div>
+              <div class="skill-item">
+                <span class="icon-package"></span>
+                <span>Webpack</span>
+              </div>
+              <div class="skill-item">
+                <span class="icon-zap"></span>
+                <span>Vite</span>
+              </div>
+              <div class="skill-item">
+                <span class="icon-code"></span>
+                <span>Testing (Jest)</span>
+              </div>
+              <!-- <div class="skill-item">
+                <span class="icon-package"></span>
+                <span>Docker</span>
+              </div> -->
+              <!-- <div class="skill-item">
+                <span class="icon-server"></span>
+                <span>AWS</span>
+              </div> -->
+              <!-- <div class="skill-item">
+                <span class="icon-monitor"></span>
+                <span>Figma</span>
+              </div> -->
+              <!-- <div class="skill-item">
+                <span class="icon-monitor"></span>
+                <span>Adobe XD</span>
+              </div> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section class="section section-gray">
+      <div class="container">
+        <h2 class="section-title">Experience</h2>
+        <div class="experience-grid">
+          <div class="card">
+            <div class="experience-card">
+              <div>
+                <h3 class="card-title">Senior Frontend Developer</h3>
+                <p class="card-subtitle">Tekkon Technologies</p>
+              </div>
+              <div class="card-meta">
+                <div>
+                  <span class="icon-calendar"></span> May 2024 - Present
+                </div>
+                <div><span class="icon-location"></span>Australia (Remote)</div>
+              </div>
+            </div>
+            <p class="card-description">
+              Designed and maintained a scalable visa application platform
+              (TechVisa, VetVisa) using React, Next.js and TypeScript.
+              Translated complex business logic into modular, reusable UI
+              components. Collaborated closely with backend and product teams to
+              streamline workflows, improve agent productivity, and enhance user
+              experience.
+            </p>
+            <div class="tags">
+              <span class="tag">React</span>
+              <span class="tag">TypeScript</span>
+              <span class="tag">Next.js</span>
+              <span class="tag">Linaria</span>
+              <span class="tag">GraphQL</span>
+              <span class="tag">Chakra UI</span>
+              <span class="tag">React Query</span>
+              <span class="tag">Jest</span>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="experience-card">
+              <div>
+                <h3 class="card-title">Frontend Developer</h3>
+                <p class="card-subtitle">Digital Agency Co.</p>
+              </div>
+              <div class="card-meta">
+                <div>
+                  <span class="icon-calendar"></span> Nov 2022 - May 2025
+                </div>
+                <div><span class="icon-location"></span>Poland (Remote)</div>
+              </div>
+            </div>
+            <p class="card-description">
+              Sole frontend developer for a complex, large-scale data governance
+              platform built with React, Next.js, Redux, and GraphQL. Designed
+              and implemented scalable UI architecture to support thousands of
+              data entities, with a strong focus on performance, responsiveness,
+              and maintainability. Led efforts to optimize rendering and state
+              management, significantly improving load times and interactivity.
+              Built advanced graph visualizations using Cytoscape to represent
+              data lineage, relationships, and governance structures in an
+              intuitive and efficient way. Collaborated closely with backend and
+              domain experts to translate intricate data models into a seamless
+              user experience.
+            </p>
+            <div class="tags">
+              <span class="tag">React</span>
+              <span class="tag">Typescript</span>
+              <span class="tag">Styled Components</span>
+              <span class="tag">REST APIs</span>
+              <span class="tag">Cytoscape</span>
+              <span class="tag">Redux</span>
+              <span class="tag">Prime React</span>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="experience-card">
+              <div>
+                <h3 class="card-title">Frontend Developer / Team Lead</h3>
+                <p class="card-subtitle">Wesionary Team</p>
+              </div>
+              <div class="card-meta">
+                <div>
+                  <span class="icon-calendar"></span> Jan 2020 - Nov 2022
+                </div>
+                <div><span class="icon-location"></span>Nepal (Remote)</div>
+              </div>
+            </div>
+            <p class="card-description">
+              Led frontend development for multiple Japanese clients, delivering
+              high-quality, production-ready features on tight timelines.
+              Collaborated with cross-functional teams across time zones to
+              improve communication, streamline workflows, and boost overall
+              team velocity. Implemented server-side rendering (SSR) and
+              performance optimization strategies to enhance speed, SEO, and
+              user experience.
+            </p>
+            <div class="tags">
+              <span class="tag">Next.js</span>
+              <span class="tag">React</span>
+              <span class="tag">Typescript</span>
+              <span class="tag">Tailwind</span>
+              <span class="tag">Web3</span>
+              <span class="tag">Linaria</span>
+              <span class="tag">React Query</span>
+              <span class="tag">Storybook</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education Section -->
+    <section class="section section-white">
+      <div class="container">
+        <h2 class="section-title">Education</h2>
+        <div class="education-grid">
+          <div class="card">
+            <div class="education-card">
+              <div>
+                <h3 class="card-title">Master of Computer Science</h3>
+                <p class="card-subtitle">Lincoln University</p>
+              </div>
+              <div class="card-meta">
+                <div><span class="icon-calendar"></span> 2022 - 2025</div>
+                <div><span class="icon-location"></span> Kathmandu, Nepal</div>
+              </div>
+            </div>
+            <p class="card-description">
+              Focused on advanced topics in software development, data
+              structures, algorithms, and research methodology. Developed strong
+              analytical and problem-solving skills through academic projects
+              and thesis work. Currently applying knowledge to real-world web
+              development challenges alongside professional experience.
+            </p>
+          </div>
+
+          <div class="card">
+            <div class="education-card">
+              <div>
+                <h3 class="card-title">
+                  Bachelor of Computer Science and Information Technology
+                </h3>
+                <p class="card-subtitle">Tribhuvan University</p>
+              </div>
+              <div class="card-meta">
+                <div><span class="icon-calendar"></span> 2014 - 2018</div>
+                <div><span class="icon-location"></span> Kathmandu, Nepal</div>
+              </div>
+            </div>
+            <p class="card-description">
+              Gained a strong foundation in computer science principles,
+              programming, databases, and software engineering. Explored both
+              theoretical and practical aspects of IT through coursework and
+              collaborative projects.
+            </p>
+            <div class="achievements">
+              <h4>Key Achievements:</h4>
+              <ul>
+                <li>
+                  Designed and developed an SOS mobile app as a final year
+                  college project, aimed at improving personal safety through
+                  quick emergency alerts and location sharing.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section section-gray">
+      <div class="container">
+        <h2 class="section-title">Featured Projects</h2>
+        <div class="projects-grid">
+          <div class="card">
+            <h3 class="card-title">Teamplace</h3>
+            <p class="card-description">
+              A coworking space platform that connects users with workspace
+              providers. Built responsive UIs, booking workflows, and
+              dashboards. Integrated Firebase for real-time data and
+              authentication.
+            </p>
+            <div class="tags">
+              <span class="tag">Next.js</span>
+              <span class="tag">React</span>
+              <span class="tag">Typescript</span>
+              <span class="tag">Stripe</span>
+              <span class="tag">Redux</span>
+              <span class="tag">Firebase</span>
+            </div>
+            <div class="project-buttons">
+              <a
+                target="_blank"
+                href="https://www.team-place.com/"
+                class="btn btn-primary btn-sm"
+              >
+                <span class="icon-external"></span>
+                Demo
+              </a>
+            </div>
+          </div>
+
+          <div class="card">
+            <h3 class="card-title">Coworkation</h3>
+            <p class="card-description">
+              A remote work and travel platform connecting digital nomads with
+              coworking-friendly stays. Worked on frontend development,
+              enhancing UI, responsiveness, and performance.
+            </p>
+            <div class="tags">
+              <span class="tag">Next.js</span>
+              <span class="tag">React</span>
+              <span class="tag">Typescript</span>
+              <span class="tag">Linaria</span>
+              <span class="tag">Redux</span>
+            </div>
+            <div class="project-buttons">
+              <a
+                href="https://co-workation.com/"
+                class="btn btn-primary btn-sm"
+              >
+                <span class="icon-external"></span>
+                Demo
+              </a>
+            </div>
+          </div>
+
+          <div class="card">
+            <h3 class="card-title">CDO Tools</h3>
+            <p class="card-description">
+							CDO.tools is a data governance platform by ValueTank that helps organizations manage and govern their data effectively. Contributed to frontend development, focusing on creating intuitive interfaces and ensuring smooth user experience in complex data environments.
+            </p>
+            <div class="tags">
+              <span class="tag">React</span>
+              <span class="tag">Typescript</span>
+              <span class="tag">Linaria</span>
+              <span class="tag">Prime React</span>
+              <span class="tag">React Query</span>
+              <span class="tag">Cytoscape</span>
+            </div>
+            <div class="project-buttons">
+           
+              </a>
+              <a
+                href="https://valuetank.com/en/cdo-tools-system/"
+                class="btn btn-primary btn-sm"
+              >
+                <span class="icon-external"></span>
+                Learn More
+              </a>
+            </div>
+          </div>
+
+					<div class="card">
+            <h3 class="card-title">TARA</h3>
+            <p class="card-description">
+							Contributed to the development of an interactive platform that helps tech professionals assess their eligibility for Australian visas. Focused on creating a clean, responsive UI and optimizing performance for fast, accurate results across devices.
+            </p>
+            <div class="tags">
+              <span class="tag">React</span>
+              <span class="tag">Typescript</span>
+              <span class="tag">Linaria</span>
+              <span class="tag">Prime React</span>
+              <span class="tag">React Query</span>
+            </div>
+            <div class="project-buttons">
+           
+              </a>
+              <a
+                href="https://eligibility.techvisa.com.au/"
+                class="btn btn-primary btn-sm"
+              >
+                <span class="icon-external"></span>
+                Demo
+              </a>
+            </div>
+          </div>
+
+					<div class="card">
+            <h3 class="card-title">Techvisa</h3>
+            <p class="card-description">
+							Worked on a comprehensive platform that supports skilled workers in navigating the Australian visa process. Focused on building intuitive user interfaces, ensuring responsiveness, and enhancing overall user experience for seamless visa application support.
+							</p>
+            <div class="tags">
+              <span class="tag">React</span>
+              <span class="tag">Typescript</span>
+              <span class="tag">Linaria</span>
+              <span class="tag">Prime React</span>
+              <span class="tag">React Query</span>
+            </div>
+            <div class="project-buttons">
+           
+              </a>
+              <a
+                href="https://techvisa.io/login"
+                class="btn btn-primary btn-sm"
+              >
+                <span class="icon-external"></span>
+                Demo
+              </a>
+            </div>
+          </div>
+
+					<div class="card">
+            <h3 class="card-title">Ella</h3>
+            <p class="card-description">
+							Developed a responsive UI to help veterinarians quickly assess Australian visa eligibility. Focused on clean design, smooth interactions, and fast performance.
+							  </p>
+            <div class="tags">
+              <span class="tag">React</span>
+              <span class="tag">Typescript</span>
+              <span class="tag">Linaria</span>
+              <span class="tag">Prime React</span>
+              <span class="tag">React Query</span>
+            </div>
+            <div class="project-buttons">
+           
+              </a>
+              <a
+                href="https://eligibility.vetvisa.com.au/"
+                class="btn btn-primary btn-sm"
+              >
+                <span class="icon-external"></span>
+                Demo
+              </a>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Articles Section -->
+    <section class="section section-white">
+      <div class="container">
+        <h2 class="section-title">Latest Articles</h2>
+        <div   id="blogs-container" class="articles-grid">
+
        
-        <!--font-awesome.min.css-->
-        <link rel="stylesheet" href="assets/css/font-awesome.min.css">
-
-		<!--flat icon css-->
-		<link rel="stylesheet" href="assets/css/flaticon.css">
-
-		<!--animate.css-->
-        <link rel="stylesheet" href="assets/css/animate.css">
-
-        <!--owl.carousel.css-->
-        <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
-		<link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
-		
-        <!--bootstrap.min.css-->
-        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-		
-		<!-- bootsnav -->
-		<link rel="stylesheet" href="assets/css/bootsnav.css" >	
         
-        <!--style.css-->
-        <link rel="stylesheet" href="assets/css/style.css">
-        
-        <!--responsive.css-->
-        <link rel="stylesheet" href="assets/css/responsive.css">
-        
-        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-		
-        <!--[if lt IE 9]>
-			<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-			<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-        <![endif]-->
-
-    </head>
-	
-	<body>
-		<!--[if lte IE 9]>
-            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
-        <![endif]-->
-		
-		<!-- top-area Start -->
-		<header class="top-area">
-			<div class="header-area">
-				<!-- Start Navigation -->
-			    <nav class="navbar navbar-default bootsnav navbar-fixed dark no-background">
-
-			        <div class="container">
-
-			            <!-- Start Header Navigation -->
-			            <div class="navbar-header">
-			                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
-			                    <i class="fa fa-bars"></i>
-			                </button>
-			                <a class="navbar-brand" href="index.html">Aiska</a>
-			            </div><!--/.navbar-header-->
-			            <!-- End Header Navigation -->
-
-			            <!-- Collect the nav links, forms, and other content for toggling -->
-			            <div class="collapse navbar-collapse menu-ui-design" id="navbar-menu">
-			                <ul class="nav navbar-nav navbar-right" data-in="fadeInDown" data-out="fadeOutUp">
-			                <li class=" smooth-menu active"></li>
-			                    <li class=" smooth-menu"><a href="#education">education</a></li>
-			                    <li class="smooth-menu"><a href="#skills">skills</a></li>
-			                    <li class="smooth-menu"><a href="#experience">experience</a></li>
-			                    <!-- <li class="smooth-menu"><a href="#profiles">profile</a></li> -->
-			                    <li class="smooth-menu"><a href="#blogs">blogs</a></li>
-			                    <li class="smooth-menu"><a href="#works">works</a></li>
-			                    <li class="smooth-menu"><a href="#contact">contact</a></li>
-			                </ul><!--/.nav -->
-			            </div><!-- /.navbar-collapse -->
-			        </div><!--/.container-->
-			    </nav><!--/nav-->
-			    <!-- End Navigation -->
-			</div><!--/.header-area-->
-
-		    <div class="clearfix"></div>
-
-		</header><!-- /.top-area-->
-		<!-- top-area End -->
-	
-		<!--welcome-hero start -->
-		<section id="welcome-hero" class="welcome-hero">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12 text-center">
-						<div class="header-text">
-							<h2>hi <span>,</span> i am <br> Aiska <br> Basnet <span>.</span>   </h2>
-							<p>Frontend developer</p>
-							<a href="assets/download/cv.pdf" download>download resume</a>
-						</div><!--/.header-text-->
-					</div><!--/.col-->
-				</div><!-- /.row-->
-			</div><!-- /.container-->
-
-		</section><!--/.welcome-hero-->
-		<!--welcome-hero end -->
-
-		<!--about start -->
-		<section id="about" class="about">
-			<div class="section-heading text-center">
-				<h2>about me</h2>
-			</div>
-			<div class="container">
-				<div class="about-content">
-					<div class="row">
-						<div class="col-sm-6">
-							<div class="single-about-txt">
-								<h3>
-									Seasoned React Developer with a passion for building scalable, high-performing web applications
-								</h3>
-								<p style="text-align: justify;">
-									Senior React/Next.js Developer with 5+ years of experience building performant, scalable web applications in remote-first envi- ronments. Proven ability to lead frontend teams, deliver high-quality features, and collaborate across global teams. Passionate about clean code, performance optimization, and intuitive UI. Holds a Master’s degree in Computer Science and thrives in async, fast-paced settings.
-									</p>
-								<div class="row">
-									<div class="col-sm-6">
-										<div class="single-about-add-info">
-											<h3>phone</h3>
-											<p>+977-9811020551</p>
-										</div>
-									</div>
-									<div class="col-sm-6">
-										<div class="single-about-add-info">
-											<h3>email</h3>
-											<p>aiska.basnet@gmail.com</p>
-										</div>
-									</div>
-									
-								</div>
-							</div>
-						</div>
-						<div class="col-sm-offset-1 col-sm-5">
-							<div class="single-about-img">
-								<img src="assets/images/about/profile_image.jpg" style="object-fit: cover;" alt="profile_image">
-								<div class="about-list-icon">
-									<ul>
-										
-										<li>
-											<a href="https://www.linkedin.com/in/aiskabasnet/" target="_blank">
-												<i  class="fa fa-linkedin" aria-hidden="true"></i>
-											</a>
-										</li><!-- / li -->
-										<li>
-											<a href="https://github.com/aiskabasnet" target="_blank">
-												<i  class="fa fa-github" aria-hidden="true"></i>
-											</a>
-										</li><!-- / li -->
-
-										<li>
-											<a href="https://medium.com/@aiska.basnet" target="_blank">
-												<i  class="fa fa-medium" aria-hidden="true"></i>
-											</a>
-										</li><!-- / li -->
-										
-										
-									</ul><!-- / ul -->
-								</div><!-- /.about-list-icon -->
-
-							</div>
-
-						</div>
-					</div>
-				</div>
-			</div>
-		</section><!--/.about-->
-		<!--about end -->
-		
-		<!--education start -->
-		<section id="education" class="education">
-			<div class="section-heading text-center">
-				<h2>education</h2>
-			</div>
-			<div class="container">
-				<div class="education-horizontal-timeline">
-					<div class="row">
-						<div class="col-sm-6">
-							<div class="single-horizontal-timeline">
-								<div class="experience-time">
-									<h2>2022 - 2024</h2>
-									<h3>master <span>of </span> computer science</h3>
-								</div><!--/.experience-time-->
-								<div class="timeline-horizontal-border">
-									<i class="fa fa-circle" aria-hidden="true"></i>
-									<span class="single-timeline-horizontal"></span>
-								</div>
-								<div class="timeline">
-									<div class="timeline-content">
-										<h4 class="title">
-											Lincoln University
-										</h4>
-										<h5>Kathmandu, Nepal</h5>
-										<!-- <p class="description">
-											Duis aute irure dolor in reprehenderit in vol patate velit esse cillum dolore eu fugiat nulla pari. Excepteur sint occana inna tecat cupidatat non proident. 
-										</p> -->
-									</div><!--/.timeline-content-->
-								</div><!--/.timeline-->
-							</div>
-						</div>
-						<div class="col-sm-6">
-							<div class="single-horizontal-timeline">
-								<div class="experience-time">
-									<h2>2014 - 2018</h2>
-									<h3>bachelor <span>of </span> computer science and Information Technology</h3>
-								</div><!--/.experience-time-->
-								<div class="timeline-horizontal-border">
-									<i class="fa fa-circle" aria-hidden="true"></i>
-									<span class="single-timeline-horizontal"></span>
-								</div>
-								<div class="timeline">
-									<div class="timeline-content">
-										<h4 class="title">
-											Tribhuvan University
-										</h4>
-										<h5>Kathmandu, Nepal</h5>
-									
-									</div><!--/.timeline-content-->
-								</div><!--/.timeline-->
-							</div>
-						</div>
-					
-					</div>
-				</div>
-			</div>
-
-		</section><!--/.education-->
-		<!--education end -->
-
-		<!--skills start -->
-		<section id="skills" class="skills">
-				<div class="skill-content">
-					<div class="section-heading text-center">
-						<h2>skills</h2>
-					</div>
-					<div class="container">
-						<div class="row">
-							<div class="col-md-6">
-								<div class="single-skill-content">
-
-									<div class="barWrapper">
-										<span class="progressText">Next.js</span>
-										<div class="single-progress-txt">
-											<div class="progress ">
-												<div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="10" aria-valuemax="100" style="">
-												</div>
-											</div>
-										</div>
-									</div><!-- /.barWrapper -->
-
-								
-
-									
-
-									<div class="barWrapper">
-										<span class="progressText">TypeScript</span>
-										<div class="single-progress-txt">
-											<div class="progress ">
-												<div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="10" aria-valuemax="100" style="">
-												</div>
-											</div>
-										</div>
-									</div><!-- /.barWrapper -->
-
-								
-									<div class="barWrapper">
-										<span class="progressText">Node.js</span>
-										<div class="single-progress-txt">
-											<div class="progress ">
-												<div class="progress-bar" role="progressbar" aria-valuenow="65" aria-valuemin="10" aria-valuemax="100" style="">
-												</div>
-											</div>
-										</div>
-									</div><!-- /.barWrapper -->
-
-									<div class="barWrapper">
-										<span class="progressText">Web3</span>
-										<div class="single-progress-txt">
-											<div class="progress ">
-												<div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="10" aria-valuemax="100" style="">
-												</div>
-											</div>
-										</div>
-									</div><!-- /.barWrapper -->
-
-									<div class="barWrapper">
-										<span class="progressText">Tailwind</span>
-										<div class="single-progress-txt">
-											<div class="progress ">
-												<div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="10" aria-valuemax="100" style="">
-												</div>
-											</div>
-										</div>
-									</div><!-- /.barWrapper -->
-
-
-									<div class="barWrapper">
-										<span class="progressText">Jest</span>
-										<div class="single-progress-txt">
-											<div class="progress ">
-												<div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="10" aria-valuemax="100" style="">
-												</div>
-											</div>
-										</div>
-									</div><!-- /.barWrapper -->
-
-									
-									<div class="barWrapper">
-										<span class="progressText">GraphQL</span>
-										<div class="single-progress-txt">
-											<div class="progress ">
-												<div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="10" aria-valuemax="100" style="">
-												</div>
-											</div>
-										</div>
-									</div><!-- /.barWrapper -->
-
-									<div class="barWrapper">
-										<span class="progressText">Remote Collaboration</span>
-										<div class="single-progress-txt">
-											<div class="progress ">
-												<div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="10" aria-valuemax="100" style="">
-												</div>
-											</div>
-										</div>
-									</div><!-- /.barWrapper -->
-
-													
-									
-
-								
-								</div>
-							</div>
-							<div class="col-md-6">
-								<div class="single-skill-content">
-									
-									<div class="barWrapper">
-										<span class="progressText">React</span>
-										<div class="single-progress-txt">
-											<div class="progress ">
-												<div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="10" aria-valuemax="100" style="">
-												</div>
-											</div>
-											<!-- <h3>100%</h3>	 -->
-										</div>
-									</div><!-- /.barWrapper -->
-
-									
-									<div class="barWrapper">
-										<span class="progressText">JavaScript</span>
-										<div class="single-progress-txt">
-											<div class="progress ">
-												<div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="10" aria-valuemax="100" style="">
-												</div>
-											</div>
-										</div>
-									</div><!-- /.barWrapper -->
-
-									<div class="barWrapper">
-										<span class="progressText">CSS</span>
-										<div class="single-progress-txt">
-											<div class="progress ">
-											   <div class="progress-bar" role="progressbar" aria-valuenow="97" aria-valuemin="10" aria-valuemax="100" style="">
-												   
-											   </div>
-											</div>
-											<!-- <h3>97%</h3>	 -->
-										</div>
-									</div><!-- /.barWrapper -->
-
-									
-
-									<div class="barWrapper">
-										<span class="progressText">Agile Development</span>
-										<div class="single-progress-txt">
-											<div class="progress ">
-												<div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="10" aria-valuemax="100" style="">
-												</div>
-											</div>
-										</div>
-									</div><!-- /.barWrapper -->
-									<div class="barWrapper">
-										<span class="progressText">Team Leadership  </span>
-										<div class="single-progress-txt">
-											<div class="progress ">
-												<div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="10" aria-valuemax="100" style="">
-												</div>
-											</div>
-										</div>
-									</div><!-- /.barWrapper -->
-
-									<div class="barWrapper">
-										<span class="progressText">Firebase</span>
-										<div class="single-progress-txt">
-											<div class="progress ">
-												<div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="10" aria-valuemax="100" style="">
-												</div>
-											</div>
-										</div>
-									</div><!-- /.barWrapper -->
-
-									<div class="barWrapper">
-										<span class="progressText">Storybook</span>
-										<div class="single-progress-txt">
-											<div class="progress ">
-												<div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="10" aria-valuemax="100" style="">
-												</div>
-											</div>
-										</div>
-									</div><!-- /.barWrapper -->
-									
-								</div>
-							</div>
-						</div><!-- /.row -->
-					</div>	<!-- /.container -->		
-				</div><!-- /.skill-content-->
-
-		</section><!--/.skills-->
-		<!--skills end -->
-
-		<!--experience start -->
-		<section id="experience" class="experience">
-			<div class="section-heading text-center">
-				<h2>experience</h2>
-			</div>
-			<div class="container">
-				<div class="experience-content">
-						<div class="main-timeline">
-							<ul>
-
-								<li>
-									<div class="single-timeline-box fix">
-										<div class="row">
-											<div class="col-md-5">
-												<div class="experience-time text-right">
-													<h2>May, 2024 - Present</h2>
-													<h3>SENIOR FRONTEND DEVELOPER</h3>
-													<h3>Full-time</h3>
-												</div><!--/.experience-time-->
-											</div><!--/.col-->
-											<div class="col-md-offset-1 col-md-5">
-												<div class="timeline">
-													<div class="timeline-content">
-														<h4 class="title">
-															<span><i class="fa fa-circle" aria-hidden="true"></i></span>
-															<a href="https://valuetank.com/en/" target="_blank">
-															Tekkon technologies
-														</a>
-														</h4>
-														<h5>Australia (Remote)</h5>
-														<ul class="description">
-															<li>Built and maintained a user-friendly platform for managing visa application workflows (TechVisa,
-																VetVisa, etc.).</li>
-															<li>Translated complex rules into clean, modular UI components, improving agent efficiency and user clarity.</li>
-														</ul>
-													</div><!--/.timeline-content-->
-												</div><!--/.timeline-->
-											</div><!--/.col-->
-										</div>
-									</div><!--/.single-timeline-box-->
-								</li>
-
-								<li>
-									<div class="single-timeline-box fix">
-										<div class="row">
-											<div class="col-md-5">
-												<div class="experience-time text-right">
-													<h2>November, 2022 - May, 2025</h2>
-													<h3>SENIOR FRONTEND DEVELOPER</h3>
-													<h3>Full-time</h3>
-												</div><!--/.experience-time-->
-											</div><!--/.col-->
-											<div class="col-md-offset-1 col-md-5">
-												<div class="timeline">
-													<div class="timeline-content">
-														<h4 class="title">
-															<span><i class="fa fa-circle" aria-hidden="true"></i></span>
-															<a href="https://valuetank.com/en/" target="_blank">
-															valuetank
-														</a>
-														</h4>
-														<h5>Poland (Remote)</h5>
-														<ul class="description">
-															<li>Developed scalable UI components for a large-scale data governance system.</li>
-															<li>Optimized rendering and state management, enhancing performance and responsiveness.</li>
-															<li>Created graph-based visualizations to show data lineage using Cytoscape.</li>
-														</ul>
-													</div><!--/.timeline-content-->
-												</div><!--/.timeline-->
-											</div><!--/.col-->
-										</div>
-									</div><!--/.single-timeline-box-->
-								</li>
-
-							
-								<li>
-									<div class="single-timeline-box fix">
-										<div class="row">
-											<div class="col-md-5">
-												<div class="experience-time text-right">
-													<h2>March, 2022 - October, 2022</h2>
-													<h3>Senior React Developer </h3>
-													<h3>Part-time</h3>
-												</div><!--/.experience-time-->
-											</div><!--/.col-->
-											<div class="col-md-offset-1 col-md-5">
-												<div class="timeline">
-													<div class="timeline-content">
-														<h4 class="title">
-															<span><i class="fa fa-circle" aria-hidden="true"></i></span>
-															<a href="https://www.wesionary.team/" target="_blank">
-																Seria Technology
-														</a>
-														</h4>
-														<h5>Kathmandu (Remote)</h5>
-														<p class="description">
-															Improved existing projects through code refactoring and best practices, collaborated with cross-functional teams to deliver new features, and mentored junior developers to foster continuous learning and growth
-															</p>
-													</div><!--/.timeline-content-->
-												</div><!--/.timeline-->
-											</div><!--/.col-->
-										</div>
-									</div><!--/.single-timeline-box-->
-								</li>
-
-								<li>
-									<div class="single-timeline-box fix">
-										<div class="row">
-											<div class="col-md-5">
-												<div class="experience-time text-right">
-													<h2>June, 2021 - March, 2022</h2>
-													<h3>React Developer </h3>
-													<h3>Part-time</h3>
-												</div><!--/.experience-time-->
-											</div><!--/.col-->
-											<div class="col-md-offset-1 col-md-5">
-												<div class="timeline">
-													<div class="timeline-content">
-														<h4 class="title">
-															<span><i class="fa fa-circle" aria-hidden="true"></i></span>
-															<a href="https://www.wesionary.team/" target="_blank">
-																Concinnity Limited
-														</a>
-														</h4>
-														<h5>Remote</h5>
-														<p class="description">
-															Developed responsive web applications with React.js, implemented state management using Redux, and collaborated with designers and backend developers to deliver optimized, seamless user experiences.	</p>
-													</div><!--/.timeline-content-->
-												</div><!--/.timeline-->
-											</div><!--/.col-->
-										</div>
-									</div><!--/.single-timeline-box-->
-								</li>
-
-
-								<li>
-									<div class="single-timeline-box fix">
-										<div class="row">
-											<div class="col-md-5">
-												<div class="experience-time text-right">
-													<h2>January, 2020 - November, 2022</h2>
-													<h3>Senior Frontend Developer | Team Lead</h3>
-													<h3>Full-time</h3>
-												</div><!--/.experience-time-->
-											</div><!--/.col-->
-											<div class="col-md-offset-1 col-md-5">
-												<div class="timeline">
-													<div class="timeline-content">
-														<h4 class="title">
-															<span><i class="fa fa-circle" aria-hidden="true"></i></span>
-															<a href="https://www.wesionary.team/" target="_blank">
-															Wesionary Team
-														</a>
-														</h4>
-														<h5>Kathmandu, Nepal</h5>
-														<ul class="description">
-															<li>Led frontend initiatives for multiple Japanese clients, ensuring timely delivery and high code quality.</li>
-																<li>Collaborated across cross-functional teams, improving team velocity and communication.</li>
-																<li>Boosted performance and SEO by implementing SSR and optimization strategies.</li>
-															
-														</ul>
-													</div><!--/.timeline-content-->
-												</div><!--/.timeline-->
-											</div><!--/.col-->
-										</div>
-									</div><!--/.single-timeline-box-->
-								</li>
-
-								
-								<li>
-									<div class="single-timeline-box fix">
-										<div class="row">
-											<div class="col-md-5">
-												<div class="experience-time text-right">
-													<h2>February, 2018 - March, 2019</h2>
-													<h3>Android Developer</h3>
-													<h3>Full-time</h3>
-												</div><!--/.experience-time-->
-											</div><!--/.col-->
-											<div class="col-md-offset-1 col-md-5">
-												<div class="timeline">
-													<div class="timeline-content">
-														<h4 class="title">
-															<span><i class="fa fa-circle" aria-hidden="true"></i></span>
-															<a href="https://www.wesionary.team/" target="_blank">
-															PDMT
-														</a>
-														</h4>
-														<h5>Biratnagar, Nepal</h5>
-														<p class="description">
-															Led a development team, managed project timelines, and delivered high-quality products meeting client requirements. Oversaw requirement analysis, documentation, and code reviews to ensure quality. Acted as a key liaison between clients and the team, ensuring clear communication and timely delivery. Contributed to management decisions and led front-end R&D for continuous improvement.
-															</p>
-													</div><!--/.timeline-content-->
-												</div><!--/.timeline-->
-											</div><!--/.col-->
-										</div>
-									</div><!--/.single-timeline-box-->
-								</li>
-
-							</ul>
-						</div><!--.main-timeline-->
-					</div><!--.experience-content-->
-			</div>
-
-		</section><!--/.experience-->
-		<!--experience end -->
-
-
-<section id="blogs" class="blogs">
-	<div class="section-heading text-center">
-		<h2>Recent Blogs</h2>
-	</div>
-	<div class="container">
-		<div id="blogs-container" class="blog-container row"></div>
-	</div>
-
-</section>
-
-		<!--clients start -->
-		<section id="clients" class="clients">
-			<div class="section-heading text-center">
-				<h2>Recent Works</h2>
-			</div>
-			<div class="clients-area">
-				<div class="container">
-					<div class="my-carousel">
-
-						<div class="item">
-							<a href="https://co-workation.com/" target="_blank">
-								<img src="assets/images/clients/coworkation.png" alt="coworkation" />
-							</a>
-						</div><!--/.item-->
-
-						<div class="item">
-							<a href="https://team-place.com/" target="_blank">
-								<img src="assets/images/clients/team-place.png" alt="team-place" />
-							</a>
-						</div><!--/.item-->
-					
-
-						<div class="item">
-							<a href="https://www.wesionary.team/" target="_blank">
-								<img src="assets/images/clients/wesionary.png" alt="wesionary" />
-							</a>
-						</div><!--/.item-->
-
-					</div>	<!-- /.owl-carousel -->
-				</div><!--/.container-->
-			</div><!--/.clients-area-->
-
-		</section><!--/.clients-->
-
-		</section><!--/.clients-->
-		<!--clients end -->
-
-		<!--contact start -->
-		<section id="contact" class="contact">
-			<div class="section-heading text-center">
-				<h2>contact me</h2>
-			</div>
-			<div class="container">
-				<div class="contact-content">
-					<div class="row">
-						<div class="col-md-offset-1 col-md-5 col-sm-6">
-							<div class="single-contact-box">
-								<div class="contact-form">
-									<form id="contactForm" method="POST" action="https://formspree.io/aiska.basnet@gmail.com">
-										<div class="row">
-											<div class="col-sm-6 col-xs-12">
-												<div class="form-group">
-												  <input type="text" class="form-control" id="name" placeholder="Name*" name="name">
-												</div><!--/.form-group-->
-											</div><!--/.col-->
-											<div class="col-sm-6 col-xs-12">
-												<div class="form-group">
-													<input type="email" class="form-control" id="email" placeholder="Email*" name="email">
-												</div><!--/.form-group-->
-											</div><!--/.col-->
-										</div><!--/.row-->
-										<div class="row">
-											<div class="col-sm-12">
-												<div class="form-group">
-													<input type="text" class="form-control" id="subject" placeholder="Subject" name="subject">
-												</div><!--/.form-group-->
-											</div><!--/.col-->
-										</div><!--/.row-->
-										<div class="row">
-											<div class="col-sm-12">
-												<div class="form-group">
-													<textarea class="form-control" rows="8" id="message" placeholder="Message" ></textarea>
-												</div><!--/.form-group-->
-											</div><!--/.col-->
-										</div><!--/.row-->
-										<div class="row">
-											<div class="col-sm-12">
-												<div class="single-contact-btn">
-													<button type="submit" class="contact-btn" href="#" role="button">Submit</button>
-												</div><!--/.single-single-contact-btn-->
-											</div><!--/.col-->
-										</div><!--/.row-->
-									</form><!--/form-->
-								</div><!--/.contact-form-->
-							</div><!--/.single-contact-box-->
-						</div><!--/.col-->
-						<div class="col-md-offset-1 col-md-5 col-sm-6">
-							<div class="single-contact-box">
-								<div class="contact-adress">
-									<div class="contact-add-head">
-										<h3>Aiska Basnet</h3>
-										<p>Frontend Developer</p>
-									</div>
-									<div class="contact-add-info">
-
-										<div class="single-contact-add-info">
-											<h3>phone</h3>
-											<p>+977-9811020551</p>
-										</div>
-										
-										<div class="single-contact-add-info">
-											<h3>email</h3>
-											<p>aiska.basnet@gmail.com</p>
-										</div>
-									
-									</div>
-								</div><!--/.contact-adress-->
-								<div class="hm-foot-icon">
-									<ul>
-										<li><a href="https://www.linkedin.com/in/aiskabasnet/" target="_blank"><i class="fa fa-linkedin"></i></a></li><!--/li-->
-									</ul><!--/ul-->
-								</div><!--/.hm-foot-icon-->
-							</div><!--/.single-contact-box-->
-						</div><!--/.col-->
-					</div><!--/.row-->
-				</div><!--/.contact-content-->
-			</div><!--/.container-->
-
-		</section><!--/.contact-->
-		<!--contact end -->
-
-		<!--footer-copyright start-->
-		<footer id="footer-copyright" class="footer-copyright">
-			<div class="container">
-				<div class="hm-footer-copyright text-center">
-					<p>
-						&copy; copyright Aiska Basnet
-					</p><!--/p-->
-				</div><!--/.text-center-->
-			</div><!--/.container-->
-
-			<div id="scroll-Top">
-				<div class="return-to-top">
-					<i class="fa fa-angle-up " id="scroll-top" ></i>
-				</div>
-				
-			</div><!--/.scroll-Top-->
-			
-        </footer><!--/.footer-copyright-->
-		<!--footer-copyright end-->
-		
-		<!-- Include all js compiled plugins (below), or include individual files as needed -->
-
-		<script src="assets/js/jquery.js"></script>
-        
-        <!--modernizr.min.js-->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
-		
-		<!--bootstrap.min.js-->
-        <script src="assets/js/bootstrap.min.js"></script>
-		
-		<!-- bootsnav js -->
-		<script src="assets/js/bootsnav.js"></script>
-		
-		<!-- jquery.sticky.js -->
-		<script src="assets/js/jquery.sticky.js"></script>
-		
-		<!-- for progress bar start-->
-
-		<!-- progressbar js -->
-		<script src="assets/js/progressbar.js"></script>
-
-		<!-- appear js -->
-		<script src="assets/js/jquery.appear.js"></script>
-
-		<!-- for progress bar end -->
-
-		<!--owl.carousel.js-->
-        <script src="assets/js/owl.carousel.min.js"></script>
-
-
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
-		
-        
-        <!--Custom JS-->
-        <script src="assets/js/custom.js"></script>
-        <script src="assets/js/medium.js"></script>
-        
-    </body>
-	
+        </div>
+        <div style="text-align: center">
+          <a href="https://medium.com/@aiska.basnet" target="_blank" class="btn btn-outline">
+            <span class="icon-book"></span>
+            View All Articles on Medium
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section section-gray">
+      <div class="container">
+        <h2 class="section-title">Let's Work Together</h2>
+        <p class="contact-description">
+          I'm always interested in new opportunities and exciting projects.
+          Let's discuss how we can bring your ideas to life!
+        </p>
+
+        <div class="contact-buttons">
+          <a target="_blank" href="mailto:aiska.basnet@email.com" class="btn btn-primary">
+            <span class="icon-mail"></span>
+            aiska.basnet@email.com
+          </a>
+          <a target="_blank" href="https://github.com/aiskabasnet" class="btn btn-outline">
+            <span class="icon-github"></span>
+            github.com/aiskabasnet
+          </a>
+          <a target="_blank" href="https://www.linkedin.com/in/aiskabasnet/" class="btn btn-outline">
+            <span class="icon-linkedin"></span>
+						linkedin.com/in/aiskabasnet
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <p></p>
+      </div>
+    </footer>
+
+		<script src="assets/js/medium.js"></script>
+  </body>
 </html>
