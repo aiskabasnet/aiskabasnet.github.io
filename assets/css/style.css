@@ -502,6 +502,10 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     color: #999fb3;
     text-align: justify;
 }
+
+.main-timeline .description li{
+   list-style: circle;
+}
 .main-timeline .timeline-content.right{
     float: right;
     text-align: left;
